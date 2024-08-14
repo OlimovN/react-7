@@ -1,0 +1,68 @@
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.pageFilter {
+  background-color: #f0f6ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.formInput {
+  flex: 1;
+  min-width: 220px;
+}
+
+.formInput input, .formInput select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.search, .reset {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.search {
+  background-color: #057aff;
+  color: #dbe1ff;
+  border: none;
+}
+
+.reset {
+  background-color: #c149ad;
+  color: #f2afca;
+  border: none;
+}
+
+.search:hover {
+  background-color: #045bcc;
+}
+
+.reset:hover {
+  background-color: #a33689;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
